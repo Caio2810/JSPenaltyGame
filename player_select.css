@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden; /* Evita barras de rolagem */
+}
+
+body {
+    background-image: url('images/field_white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+
+.container {
+    padding: 2rem 7rem;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 5px solid #0c212fd6;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #0c212fd6;
+}
+
+.option_images {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+}
+
+.option_image {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0.5;
+    align-items: center;
+    transition: opacity 0.1s ease;
+    width: 180px; /* largura do container de imagem */
+    height: 200px; /* altura do container de imagem */
+}
+
+.option_image img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%; /* Alterado para 100% para manter a proporção */
+    height: auto; /* Alterado para auto para manter a proporção */
+    object-fit: cover; /* para manter a proporção da imagem */
+}
+
+.option_image p {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #466370;
+}
+
+.option_image:hover {
+    opacity: 1;
+}
+
+.option_image.active {
+    opacity: 1;
+}
+
+.option_image img {
+    pointer-events: auto;
+}
+
