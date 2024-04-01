@@ -9,13 +9,13 @@ If the numbers are the same, it's a save; if they are different, it's a goal.
 Keep playing to see how many goals you can score!
 
 # You Can Acess It Here
-https://main--whimsical-brioche-9a95ad.netlify.app
+* https://main--whimsical-brioche-9a95ad.netlify.app
 
 
 # Technologies Used
--HTML
--CSS
--JavaScript
+* HTML
+* CSS
+* JavaScript
 
 
 # Disclaimer
